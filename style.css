@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.foto {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.level {
+    background: green;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.square {
+    list-style-type: square;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.highlight {
+    background: yellow;
+}
+
+.motto {
+    position: relative;
+    animation: jalan 10s linear infinite;
+    color: red;
+    font-weight: bold;
+}
+
+@keyframes jalan {
+    from { left: 100%; }
+    to { left: -100%; }
+}
